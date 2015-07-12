@@ -1,0 +1,15 @@
+@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+@xscreensaver -no-splash
+
+# [CCS] - disable screen blanking
+@xset s off
+@xset -dpms
+@xset s noblank
+
+# [CCS] - auto-start Chromium, point it at the display page
+#@/usr/bin/chromium --kiosk http://csociety.org/~jacoby/MB_Demo/
+#@/usr/bin/chromium --kiosk --incognito http://matchboxstudio.org/doors.html
+#@/usr/bin/chromium --kiosk --incognito http://matchboxstudio.org/vid.html
+#@/usr/bin/chromium --kiosk  --incognito http://167.88.117.185/present 
+@/usr/bin/chromium --kiosk  --incognito http://greaterlala.in/present 
